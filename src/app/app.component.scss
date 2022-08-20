@@ -1,0 +1,8 @@
+.chart-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .child-chart{
+        flex: 1;
+    }
+}

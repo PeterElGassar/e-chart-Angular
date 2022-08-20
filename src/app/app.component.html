@@ -1,0 +1,23 @@
+
+<router-outlet></router-outlet>
+
+
+<div class="chart-wrapper">
+  <app-main-chart class="child-chart"
+  [chartDate]="chartDate"
+  [xAxisDate]="xAxisDate"
+  [chartType]="chartType"
+  [backgroundColor]="backgroundColor"> 
+  </app-main-chart>
+  <app-main-chart class="child-chart"
+  [chartDate]="chartDate2"
+  [xAxisDate]="xAxisDate2"
+  [chartType]="chartType2"
+  [backgroundColor]="backgroundColor2"> 
+  </app-main-chart>
+    
+</div>
+
+
+
+<!-- <a routerLink="/parent/main-chart">click</a> -->
